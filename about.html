@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bright Future Junior School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Asserts/log.jpg" alt="Bright Future Junior School Logo" class="logo-img">
+                <h1>Bright Future Junior School</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About Our School</h1>
+            <p>Learn about our history, mission, and commitment to excellence in education</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Background</h3>
+                    <p>Founded in 2018, Bright Future Junior School has been dedicated to providing exceptional early childhood and primary education. We believe in nurturing each child's unique potential through innovative teaching methods and a supportive learning environment.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To provide a stimulating learning environment that promotes academic excellence, character development, and lifelong learning skills, preparing learners to become responsible global citizens.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To be the leading institution for holistic education, recognized for developing well-rounded individuals who contribute positively to society.</p>
+                    
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><strong>Excellence:</strong> Striving for the highest standards in education</li>
+                        <li><strong>Integrity:</strong> Fostering honesty and ethical behavior</li>
+                        <li><strong>Innovation:</strong> Embracing creative teaching methods</li>
+                        <li><strong>Community:</strong> Building strong partnerships with parents and society</li>
+                        <li><strong>Respect:</strong> Valuing diversity and individual differences</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="Asserts/building.jpeg" alt="School Building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bright Future Junior School</h3>
+                    <p>Nurturing young minds for a bright future since 2018.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Programs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Bright Future Junior School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
